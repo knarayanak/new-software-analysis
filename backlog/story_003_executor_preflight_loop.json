@@ -1,0 +1,23 @@
+﻿{
+  "id": "story_003_executor_preflight_loop",
+  "title": "Executor: pre-flight checks + thin run loop (logic-only)",
+  "priority": 1,
+  "status": "ready",
+  "dependencies": ["story_002_pick_and_fixgate"],
+  "acceptance_criteria": [
+    "Pre-flight validates app import and allowed_paths not in Protected Zone",
+    "Returns blocked_needs_override when conflicts found",
+    "Returns environment_mismatch when imports fail",
+    "Thin run loop picks highest-priority ready story and returns a plan payload",
+    "Unit tests cover pass/fail branches with >=95% coverage on touched modules"
+  ],
+  "allowed_paths": [
+    "app/executor/__init__.py",
+    "app/executor/runloop.py",
+    "tests/test_executor_runloop.py"
+  ],
+  "risk_level": "medium",
+  "tags": ["executor","preflight","runloop"],
+  "estimated_effort": 8,
+  "assigned_role": "Dev Lead"
+}

@@ -1,0 +1,12 @@
+[run]
+branch = True
+source = app
+omit =
+    */tests/*
+    */.venv/*
+    app/middlewares/*
+    app/routers/health.py
+    app/routers/ping.py
+[report]
+show_missing = True
+skip_covered = False

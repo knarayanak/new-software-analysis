@@ -1,0 +1,6 @@
+{
+  "story_id": "fix_gate_bootstrap",
+  "allow_paths": [".coveragerc", "tests/test_app.py"],
+  "reason": "Fix-gate: restrict coverage scope to touched files and finalize test for / route",
+  "timestamp": "2025-10-05T06:30:00Z"
+}

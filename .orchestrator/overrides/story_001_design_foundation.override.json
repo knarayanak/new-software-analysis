@@ -1,0 +1,6 @@
+{
+  "story_id": "story_001_design_foundation",
+  "allow_paths": ["tests/test_app.py", "tests/test_orchestrator_state.py"],
+  "reason": "Increase coverage to >=95% by adding root test and extra state.py branch tests",
+  "timestamp": "2025-10-05T07:05:00Z"
+}

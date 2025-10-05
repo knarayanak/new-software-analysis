@@ -1,0 +1,90 @@
+{
+    "artifacts_manifest":  [
+
+                           ],
+    "role_progress":  {
+
+                      },
+    "protected_zone":  {
+                           "paths":  [
+                                         "app/main.py",
+                                         "app/routers/__init__.py",
+                                         "tests/test_app.py",
+                                         "app/orchestrator/__init__.py",
+                                         "app/orchestrator/state.py",
+                                         "tests/test_orchestrator_state.py",
+                                         "app/orchestrator/workflow.py",
+                                         "tests/test_orchestrator_workflow.py"
+                                     ]
+                       },
+    "resume_token":  "aad814e1-6a6f-448e-a001-2974c9a6e22a",
+    "container_fingerprint":  null,
+    "version":  1,
+    "quarantine_tests":  [
+
+                         ],
+    "environment_fingerprint":  {
+                                    "run_commands":  [
+                                                         "py -m pytest -vv --cov --cov-fail-under=95",
+                                                         "uvicorn app.main:app --reload"
+                                                     ],
+                                    "libs":  {
+
+                                             },
+                                    "os":  "Windows_NT",
+                                    "python":  "Python 3.12.0"
+                                },
+    "last_updated":  "2025-10-05T11:34:36Z",
+    "coverage_history":  [
+                             {
+                                 "timestamp":  "2025-10-05T11:16:51Z",
+                                 "percent":  98.15,
+                                 "by_module":  {
+                                                   "app/orchestrator/__init__.py":  100,
+                                                   "app/main.py":  100,
+                                                   "app/orchestrator/state.py":  98,
+                                                   "app/routers/__init__.py":  100
+                                               }
+                             },
+                             {
+                                 "timestamp":  "2025-10-05T11:34:36Z",
+                                 "percent":  98.16,
+                                 "by_module":  {
+                                                   "app/orchestrator/workflow.py":  98,
+                                                   "app/main.py":  100,
+                                                   "app/orchestrator/state.py":  98,
+                                                   "app/routers/__init__.py":  100
+                                               }
+                             }
+                         ],
+    "metrics":  {
+                    "throughput":  0,
+                    "error_rate":  0
+                },
+    "stories":  [
+                    {
+                        "id":  "fix_gate_bootstrap",
+                        "status":  "done",
+                        "attempts":  1,
+                        "started_at":  "2025-10-05T11:08:37Z",
+                        "completed_at":  "2025-10-05T11:08:37Z",
+                        "assigned_role":  "QA Engineer/Tester"
+                    },
+                    {
+                        "id":  "story_001_design_foundation",
+                        "status":  "done",
+                        "attempts":  1,
+                        "started_at":  "2025-10-05T11:16:51Z",
+                        "completed_at":  "2025-10-05T11:16:51Z",
+                        "assigned_role":  "Software Architect"
+                    },
+                    {
+                        "id":  "story_002_pick_and_fixgate",
+                        "status":  "done",
+                        "attempts":  1,
+                        "started_at":  "2025-10-05T11:34:36Z",
+                        "completed_at":  "2025-10-05T11:34:36Z",
+                        "assigned_role":  "Software Architect"
+                    }
+                ]
+}

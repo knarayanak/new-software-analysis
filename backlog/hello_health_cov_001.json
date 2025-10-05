@@ -1,0 +1,18 @@
+﻿{
+  "id": "hello_health_cov_001",
+  "title": "Ensure health endpoints covered to ≥95%",
+  "priority": 1,
+  "status": "ready",
+  "dependencies": [],
+  "acceptance_criteria": [
+    "Tests cover /, /health, /live, /ready",
+    "Overall coverage ≥ 95%"
+  ],
+  "allowed_paths": [
+    "tests/test_app.py"
+  ],
+  "risk_level": "low",
+  "tags": ["testing", "coverage"],
+  "estimated_effort": 1,
+  "assigned_role": "QA Engineer/Tester"
+}

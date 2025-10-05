@@ -1,0 +1,22 @@
+{
+  "id": "story_001_design_foundation",
+  "title": "Design foundation: orchestrator workflow & state rebuild",
+  "priority": 1,
+  "status": "ready",
+  "dependencies": [],
+  "acceptance_criteria": [
+    "State discovery & rebuild logic coded and unit-tested",
+    "Reads .orchestrator/state.json; rebuilds if missing",
+    "Generates artifacts_manifest and environment_fingerprint",
+    "Unit tests cover success and missing-state rebuild paths (>=95%)"
+  ],
+  "allowed_paths": [
+    "app/orchestrator/__init__.py",
+    "app/orchestrator/state.py",
+    "tests/test_orchestrator_state.py"
+  ],
+  "risk_level": "medium",
+  "tags": ["design","orchestrator"],
+  "estimated_effort": 8,
+  "assigned_role": "Software Architect"
+}

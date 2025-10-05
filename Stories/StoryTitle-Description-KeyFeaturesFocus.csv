@@ -1,0 +1,41 @@
+Story Title,Description,Key Features/Focus,Comment 
+Partner Store,"Add, view, update, and inactivate trading partners for screening and audits.","Bulk/single entry, unique fields, alert linkage, sanctions, deactivate/archive",
+Product Store,Catalog products with compliance classification for accuracy.,"HS/ECCN, export flags, history, ERP sync, license eligibility/linking",
+Order/Transaction Store,"Track orders, partners, and products for compliance checks and shipment progress.","Reference fields, compliance check log, workflow history, export/search",
+Rule Store,"Create, edit, version, and simulate policy rules for dynamic compliance.","Low-code rule designer, versioning, simulation, audit/export",
+Audit Store,View immutable logs of all compliance actions/decisions for full reviews.,"Tamper-evident log, permission controls, export, dashboard",
+License Vault,"See all issued, pending, expired licenses linked to products, partners, and shipments.","License linkage, quotas, expiry, renewal, drill-down, API sync",
+Onboarding/Calibration,"Guided, stepwise setup; AI calibration for SME needs; no-code data mapping.","Wizard onboarding, field mapping, AI calibration, sandbox/test",
+Embedded Integration,"Native connectors, real-time bi-directional ERP/OMS/Shopify sync, user in-workflow actions.","Plug/wizard setup, workflow embedding, data mapping, error handling",
+Self-Service Customization,"Drag-and-drop workflow/rule builder, simulation, custom user roles—no IT required.","Visual builder, template, logic, simulation/impact, custom roles",
+Explainable AI,"Reason Cards for AI actions, legal context, confidence scores, full auditability.","AI explanation, confidence, drill-down, feedback loop",
+Continuous Audit,"Self-auditing, gap/failure detection, one-click regulatory audit packs.","Proactive scan, alerting, pack builder, analytics",
+Training & Support,"Guided onboarding, contextual help, certification for users/admins.","Interactive onboarding, contextual help, certification tracks",
+Security & Residency,"SSO, MFA, granular roles, and data localization/residency compliance.","SSO, MFA, RBAC/ABAC, region mapping, encryption",
+Exception Management,"Case queue/escalation/collaboration, file attach, closure, and audit.","Auto-case, escalation, collaboration, closure tracking",
+Document Management,"AI/OCR, doc classification, versioning, transactions linking, compliance search/download.","AI/OCR, versioning, document linking, search/export, expiry alerts",
+Regulatory Updates,"Auto-list/rule ingestion, dashboard for impact, change/evidence tracking.","Auto-ingest, impact visualize, diff/history pack, audits",
+Tech/Non-Functional,"Detailed SLAs, high-availability, automated testing, extensibility SDK",,
+Integration,"EDI + low-code builder, event market, developer portal",,
+Data Privacy,"PIPL/LGPD/CCPA flows, DSAR, field-level encryption",,
+ESG/Supply Chain,"Forced labor, ESG, traceability, supplier graph",,
+Localization/Accessibility,"RTL/i18n, WCAG compliance",,
+Training/Docs,"Gamified onboarding, OpenAPI docs, customer usage analytics",,
+Change Mgmt/Testing,"Shadow mode, automated rollback, staged config approval",,
+Business Model,"White label support, usage-based billing, partner dashboard",,
+AI/Innovations,"Power what-if tools, continuous learning, customer submission portal",,
+UX/Success,"Copilot/GenAI assistant, VOC feedback/analytics, explainable UI everywhere",,
+Advanced Audit/Regulator,"Regulator APIs, predictive audit/risk scoring, pre-audit remediation tools",,
+Mobile/Remote,"Mobile UX parity, offline workflows, global sync",,
+Data Governance,"Data lineage/quality dashboards, policy management, regulatory attestation, read-tracking",,
+Greenfield Innovation,"Quantum safety, AI-driven integration healing, self-repair",,
+B2B/Ecosystem,"API/app marketplace, partner monetization, client access/annotation",,
+Regulatory Evolution,"EU AI Act audit suite, adaptive policy/workflow builder, AI-powered regulation mapping",,
+Technology / Feature,Description,,Next phase 
+Blockchain for Compliance Provenance,"Immutable, distributed ledger for traceable chain-of-custody of transactions and decisions; secures provenance in supply chains and regulated finance.",,Next phase 
+IoT / Edge Device Integration,"Automated ingestion of sensor/device data (e.g., GPS, temperature) enabling real-time physical compliance tracking in logistics and manufacturing.",,Next phase 
+Decentralized Identity (DID),"Enables secure, verifiable onboarding and credentialing of third-party suppliers, preventing impersonation in partner workflows.",,Next phase 
+Environmental Impact Modeling,"Real-time computation and reporting of greenhouse gas emissions, resource usage, and lifecycle impact per shipment or order, linked to ESG goals.",,Next phase 
+Federated Compliance / Shared Networks,Cooperative frameworks across companies or platforms to share blacklist/denied parties data or jointly manage compliance to reduce duplication & fraud risk.,,Next phase 
+In-App Marketplace Monetization,Platform enabling external data or analytics providers to monetize regulatory data feeds and AI services sold through the app ecosystem.,,Next phase 
+Compliance-as-Code API,"Interfaces for devops/product engineering teams to embed compliance gating and checks directly into product workflows, deployments, or release pipelines.",,Next phase 

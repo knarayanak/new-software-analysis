@@ -1,0 +1,21 @@
+{
+  "id": "story_002_pick_and_fixgate",
+  "title": "Orchestrator: backlog discovery, selection, and fix-gate detection (logic)",
+  "priority": 1,
+  "status": "ready",
+  "dependencies": ["story_001_design_foundation"],
+  "acceptance_criteria": [
+    "Backlog discovery loads .json/.yml/.yaml files from backlog/",
+    "Selection picks highest-priority ready story with dependencies satisfied",
+    "Fix-gate detector yields a virtual story when imports/tests not passing",
+    "Unit tests cover ready/deps/priority ties + fix-gate path (>=95%)"
+  ],
+  "allowed_paths": [
+    "app/orchestrator/workflow.py",
+    "tests/test_orchestrator_workflow.py"
+  ],
+  "risk_level": "medium",
+  "tags": ["orchestrator","selection","fix-gate"],
+  "estimated_effort": 8,
+  "assigned_role": "Software Architect"
+}

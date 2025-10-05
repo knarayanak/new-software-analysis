@@ -1,0 +1,17 @@
+﻿{
+  "id": "fix_gate_bootstrap",
+  "title": "Bootstrap workspace and passing health check",
+  "priority": 1,
+  "status": "ready",
+  "dependencies": [],
+  "acceptance_criteria": [
+    "FastAPI app imports without side effects",
+    "Health endpoint returns 200",
+    "Pytest passes with coverage >=95% on touched files"
+  ],
+  "allowed_paths": ["app/main.py", "app/routers/__init__.py", "tests/test_app.py"],
+  "risk_level": "low",
+  "tags": ["fix-gate", "bootstrap"],
+  "estimated_effort": 5,
+  "assigned_role": "QA Engineer/Tester"
+}
