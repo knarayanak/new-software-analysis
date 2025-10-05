@@ -8,10 +8,10 @@
 *.ps1  text eol=crlf
 
 # Treat common binary formats as binary (no text normalization)
-*.pdf  -text
-*.docx -text
-*.xlsx -text
-*.pptx -text
+*.pdf  -text -diff -merge
+*.docx -text -diff -merge
+*.xlsx -text -diff -merge
+*.pptx -text -diff -merge
 *.png  -text
 *.jpg  -text
 *.jpeg -text
