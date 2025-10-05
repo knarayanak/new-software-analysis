@@ -6,3 +6,13 @@
 *.md   text eol=lf
 *.csv  text eol=lf
 *.ps1  text eol=crlf
+
+# Treat common binary formats as binary (no text normalization)
+*.pdf  -text
+*.docx -text
+*.xlsx -text
+*.pptx -text
+*.png  -text
+*.jpg  -text
+*.jpeg -text
+*.gif  -text
